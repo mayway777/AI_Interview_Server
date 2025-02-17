@@ -14,8 +14,8 @@ python --version
 깃허브에서 `requirements.txt` 파일을 다운로드합니다.
 
 ```sh
-git clone https://github.com/사용자이름/저장소이름.git
-cd 저장소이름
+git clone https://github.com/mayway777/AI_Interview_Server.git
+cd AI_Interview_Server
 ```
 
 ### 2.2 🏗 가상환경 설정 (선택 사항)
