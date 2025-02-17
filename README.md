@@ -68,7 +68,7 @@ python main.py
 ## 5. 🔗 웹 연동
 이 서버는 **Next.js 기반 EMPAI 웹**의 AI 면접 분석 기능과 연동됩니다. 면접자의 **영상/음성/답변 분석 결과**를 클라이언트에 실시간으로 제공하며, MongoDB에 저장된 데이터를 활용하여 피드백을 생성합니다.
 
-🔗 EMPAI 웹사이트: [EMPAI GitHub 저장소](https://github.com/mayway777/AI_Interview_Server.git)
+🔗 EMPAI 웹사이트: [EMPAI GitHub 저장소](https://github.com/mayway777/empai.git)
 
 ---
 ## 6. 🛠 환경 변수 설정
