@@ -33,6 +33,8 @@ venv\Scripts\activate    # Windows
 ```sh
 pip install -r requirements.txt
 ```
+pip install torch==2.5.1+cu118 torchvision==0.20.1+cu118 torchaudio==2.5.1+cu118 --index-url https://download.pytorch.org/whl/cu118
+(추가설치필요)
 
 ## 3. ▶ 프로젝트 실행
 설정이 완료되면 프로젝트를 실행할 수 있습니다.
