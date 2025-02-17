@@ -71,4 +71,24 @@ python main.py
 🔗 EMPAI 웹사이트: [EMPAI GitHub 저장소](https://github.com/mayway777/AI_Interview_Server.git)
 
 ---
+## 6. 🛠 환경 변수 설정
+이 프로젝트를 실행하기 위해서는 **MongoDB 및 OpenAI API 키**가 필요합니다. `.env` 파일을 생성하여 아래 내용을 추가하세요.
+
+```env
+MONGODB_URI=이곳에 몽고디비 URI를 입력하세요
+OPENAI_API_KEY="이곳에 API키를 발급받아 입력하세요"
+```
+
+`.env` 파일을 **프로젝트 루트 디렉터리**에 위치시키고, `dotenv` 라이브러리를 사용하여 로드할 수 있습니다.
+
+```python
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+MONGODB_URI = os.getenv("MONGODB_URI")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+```
+
+환경 변수를 설정한 후, 서버를 다시 실행하면 MongoDB 및 OpenAI API를 정상적으로 사용할 수 있습니다.
 🎉 **설치 및 설정이 완료되었습니다! AI 면접 분석을 시작해보세요!** 🚀
